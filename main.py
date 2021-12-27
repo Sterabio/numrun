@@ -45,7 +45,7 @@ name = input('Enter Name: ')
 while True:
     
     
-    os.system('clear')
+    os.system('cls||clear')
     pst = time.time()
     safe.extend([random.choice([i + pos + lenth - n,i + pos + lenth - n,0]) for i in range(n)])
     bb= 0
